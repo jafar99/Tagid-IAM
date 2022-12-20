@@ -1,0 +1,117 @@
+@import '~antd/dist/antd.css';
+
+#components-layout-demo-custom-trigger .trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    float: left;
+    transition: color 0.5s;
+    
+  }
+  
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .site-layout .site-layout-background {
+    background: rgb(255, 255, 255);
+  }
+  .anticon {
+    display: table;
+    color: black;
+    font-style: normal;
+    line-height: 2;
+    text-align: left;
+    vertical-align: -0.125em;
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.ant-table100 {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+  position: relative;
+  font-size: 14px;
+  background: rgb(79, 255, 3);
+  border-radius: 2px;
+}
+.ant-table10 {
+  color: rgb(182, 45, 45);
+  background: rgb(224, 169, 169);
+  /* align-content: center; */
+}
+.ant-table90 {
+  color: rgb(0, 0,0);
+  
+}
+
+
+.Box{
+  margin: 20px 30px 10px 30px;
+}
+
+.scanBtn{
+  display: flex;
+    margin-top: 20px;
+  justify-content: center;
+}
+.ant-table-thead > tr > th{
+  text-align: left;
+  background-color: rgb(40, 43, 46);
+  color: white;
+  font-size: 16px;
+}
+
+.input-form{
+  display: flex;
+  justify-content: center;
+}
+
+.box-label{
+  width: 40%;
+ 
+
+}
+
+.ant-table-pagination.ant-pagination{
+  margin: 20px 20px 10px 20px;
+}
+
+.input{
+  
+  margin-left: 10px;
+}
+
+.ant-table-container table > thead > tr:first-child th:last-child{
+  background-color: rgb(179, 185, 192);
+}
+
+
+.scan{
+  margin: 20px 30px 10px 30px;
+  background-color: rgb(224, 136, 21);
+  border: rgb(245, 140, 2) ;
+  font-size: 16px;
+}
+
+.scan:hover{
+  background-color: rgb(250, 164, 53);
+}
+
+.submit{
+  margin: 20px 30px 10px 30px;
+  font-size: 16px;
+}
